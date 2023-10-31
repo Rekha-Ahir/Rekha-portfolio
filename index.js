@@ -21,7 +21,7 @@ function handleResize() {
   if (window.innerWidth < 500) {
     if (nav.style.display === 'none' || nav.style.display === '') {
       nav.style.display = 'flex';
-      toggle[0].style.height = '210px';
+      toggle[0].style.height = '200px';
     } else {
       nav.style.display = 'none';
       toggle[0].style.height = '50px';
