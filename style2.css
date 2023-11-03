@@ -424,6 +424,7 @@ div.scroll-container {
 
   }
   .dyanamic li{
+    display: none;
     font-size: 1rem;
     top: -10px;
   }
@@ -432,25 +433,28 @@ div.scroll-container {
     content: "";
     position: relative;
     left: 0;
-    height: 85%;
+    height: 95%;
     width: 100%;
     background-color: #647081;
-    border-left: 2px solid #fc6d60;
+    /* border-left: 2px solid #fc6d60; */
     animation: typing 1.5s steps(10) infinite;
   }
-
+.wrapper{
+  display: none;
+}
   .wrapper .static {
+    display: none;
     color: #fff;
-    font-size: 4vw;
+    font-size: 2rem;
     font-weight: 400;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    margin-top: 29px;
-  }
+    margin-top: 11px;
+}
   #nav{display: none;
 
   }
   .btn{
-    padding: 2vw 3vw;
+    padding: 2vw 2vw;
     font-size: 1rem;
   }
   .devinfo a{
