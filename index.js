@@ -1,16 +1,4 @@
-//   let bottom_line=document.querySelectorAll('.hy')
-//   let hov=document.getElementsByClassName('hov')
-//   let hovchild=document.getElementsByClassName('hov')[0].children[1]
 
-// console.log(hov[0])
-// for(let i=0;i<=hov.length; i++){
-// hov[i].onmouseover=function(){
-//     console.log("hover")
-//     console.log(bottom_line[i])
-//     for(let j=0;j<=bottom_line.length; j++){
-//   bottom_line[j].style.display='block'}
-
-//   }}
 const side = document.getElementById('side');
 const nav = document.getElementById('nav');
 console.log(nav[1])
